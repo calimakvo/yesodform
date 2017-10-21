@@ -1,0 +1,13 @@
+=================================
+Initialize
+=================================
+
+project rename
+--------------
+
+M-x find-grep-dired
+Shift + Q
+yesodform -> [new project name]
+mv yesodform [new project name]
+
+$ stack clean && stack build && stack exec -- yesod devel
